@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter</title>
+    <link rel="stylesheet" href="contactes.css">
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+        </style>
+        <script type="text/javascript">
+
+            function initialize() {
+            
+              var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+            
+              // Resize stuff...
+              google.maps.event.addDomListener(window, "resize", function() {
+                var center = map.getCenter();
+                google.maps.event.trigger(map, "resize");
+                map.setCenter(center); 
+              });
+            
+            }
+            
+            </script>
+    <header>
+        <h1>Компьютерный клуб <span>Fighter chil</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="play.html">Игры</a></li>
+                <li><a href="prace.html">Цены</a></li>
+                <li><a href="contactes.html">Контакты</a></li>
+                <li><a href="turnir.html">Турниры</a></li>
+                li><a href="comlekt.html" class="comle">Комплектующие</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contacts">
+        <div class="gerino">
+            <h2>Контакты</h2>
+        </div>
+        <div class="contact-info">
+        <h2 class="adres">Адрес</h2>
+        <p>Оренбург,ул.Гагарина,дом 44/3</p>
+        <h2 class="telefone">Телефон</h2>
+        <p>+7 (999) 123-45-67</p>
+        <h2 class="time">Часы работы</h2>
+        <p>Пн-Вс: 9:00 - 23:00</p>
+          <p><strong>Telegram:</strong> @your_telegram_username</p>
+          <p><strong>ВКонтакте:</strong> vk.com/your_vk_profile</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2400.8504526013414!2d37.61749431577424!3d55.75577398052721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54aefeb09e0fd%3A0xfadafab8e90dcd22!2z0JrQvtC70YzRj9C10L3QuNC5INC-0LPRgNCw0LnRgtC40YLQsNGPINGB0LXQtNC60LjQvdCw0Y8g0LTQtdGA0LDQutGC0LXRgdGM0L3Ri9GMINC-0LHQu9GP0LXRgNC10L3QvdGL0LUg0LLRgNC10Lwu!5e0!3m2!1sru!2sua!4v1679253547206!5m2!1sru!2sua" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="karta"></iframe>
+      </section>
+</body>
+</html>

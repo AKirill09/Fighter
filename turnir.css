@@ -1,0 +1,181 @@
+body {
+    font-family: "Stalinist One", sans-serif;
+    font-style: normal;
+    font-size: 0.6em;
+    background: linear-gradient(180deg, #000000, #22001d, #510457, #c903a8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.turnir {
+    color: white;
+}
+
+header nav a:hover {
+    color: #ddd;
+}
+
+main {
+    color: #fff;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+
+
+section h2 {
+    margin-top: 0;
+}
+
+.turnir-list .turnir {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Стиль для изображений в карточке турнира */
+.tournament-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: left;
+    color: white;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+}
+
+#prices,
+#contacts {
+    color: #fff;
+}
+
+.gerin {
+    text-align: center;
+}
+
+span {
+    color: rgb(125, 85, 219);
+}
+
+.iopin {
+    color: red;
+}
+
+.me {
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.me:after {
+    color: #ff00ee;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.me:hover:after {
+    color: #ff00ee;
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: rgb(255, 0, 234);
+    transition: width 0.5s;
+}
+
+.tournaments {
+    background: #ffffff17;
+    border-radius: 15px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tournament-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tournament-card {
+    padding: 20px;
+    border-radius: 15px;
+    width: 138px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tournament-card h3 {
+    color: #ffffff;
+}
+
+.tournament-card span {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .sponsor {
+    color:rgba(255, 0, 0, 0.541);
+}
